@@ -1,0 +1,22 @@
+﻿@model MyProject.WebApi.Models.CartSummaryViewModel
+
+    <div class="dropdown-menu dropdown-menu-right myDropdown" aria-labelledby="navbarDropdown">
+        @foreach (var item in Model.Cart.CartLines)
+        {
+            <div class="dropdown-item">
+                @item.Product.ProductName
+                <div style="float:right;">
+                    <span class="badge badge-pill badge-primary">@item.Quantity</span>
+                    <a class="badge badge-pill badge-danger" asp-controller="Cart" asp-action="Remove" asp-route-productId="@item.Product.Id">X</a>
+                </div>
+            </div>
+            <div class="dropdown-divider"></div>
+        }
+
+        <a class="dropdown-item"><strong style="padding-right: inherit;">Toplam:</strong>@Model.Cart.Total TL</a>
+
+        <div class="dropdown-divider"></div>
+
+        @*<a class="dropdown-item" asp-controller="Cart" asp-action="List"><span class="fas fa-info" style="padding-right: inherit;"></span>Go to cart details</a>*@
+    </div>
+

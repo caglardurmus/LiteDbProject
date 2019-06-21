@@ -1,0 +1,68 @@
+﻿<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8">
+    <title>@ViewBag.Title</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div class="col-md-12">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-2">
+            <a class="navbar-brand" href="#">My Project</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto"></ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item dropdown myDropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="myDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <span class="fas fa-shopping-cart" style="padding-right: inherit;"></span>
+                            Sepet
+                        </a>
+                        @await Component.InvokeAsync("CartSummary")
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+    <div class="container col-md-11">
+        <div class="row">
+
+            @if (TempData["message"] != null)
+            {
+                string classType = (TempData["danger"] != null && TempData["danger"].ToString() == "true") ? "alert-danger" : "alert-success";
+                <div id="alert" class="alert @classType alert-dismissible fade show position-absolute " role="alert">
+                    @TempData["message"].ToString()
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                string message = TempData["message"].ToString();
+                <script type="text/javascript">
+                    $(function () {
+                        $("#alert");
+                    });
+                </script>
+            }
+            @RenderBody()
+        </div>
+    </div>
+    <div class="col-md-12">
+        <h3 align="center">Footer</h3>
+    </div>
+    <script type="text/javascript">
+        $('#myDropdown').on('click', function (event) {
+            $('.myDropdown').toggleClass('show');
+        });
+
+        $('body').on('click', function (e) {
+            if (!$('.myDropdown').is(e.target) && $('.myDropdown').has(e.target).length === 0 && $('.show').has(e.target).length === 0) {
+                $('.myDropdown').removeClass('show');
+            }
+        });
+    </script>
+</body>
+</html>

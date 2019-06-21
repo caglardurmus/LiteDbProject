@@ -1,0 +1,36 @@
+﻿@model MyProject.WebApi.Models.ProductLisViewModel
+@{
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+<h2 align="center">Ürünler</h2>
+<div class="table-responsive">
+    <table class="table table-bordered table-responsive-lg">
+        <tr>
+            <td>Ürün Adı</td>
+            <td>Ürün Fiyatı</td>
+            <td>Stok</td>
+            <td>Adet</td>
+            <td></td>
+        </tr>
+        @{ foreach (var product in Model.Products)
+            {
+                <tr>
+                    <td>@product.ProductName</td>
+                    <td>@product.Price</td>
+                    <td>@product.Stock</td>
+                    <td><input id="@product.Id" asp-route-count="1" type="number" value="1" /></td>
+                    <td align="center">
+                        <a class="btn btn-xs btn-success" onclick="addCart(@product.Id, $('#@product.Id').val())">Sepete Ekle</a>
+                    </td>
+                </tr>
+            }
+        }
+    </table>
+    <script type="text/javascript">
+        function addCart(id, count) {
+            window.location.href = '@Url.Action("AddToCart","Cart")'+'/?productId='+id+'&count='+count;
+            }
+    </script>
+</div>
+
