@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Entities\MyProject.Entities.csproj" />
     <ProjectReference Include="..\MyProject.DataAccess\MyProject.DataAccess.csproj" />
+    <ProjectReference Include="..\MyProject.Entities\MyProject.Entities.csproj" />
   </ItemGroup>
 
 </Project>

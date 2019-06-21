@@ -1339,8 +1339,8 @@
     },
     "MyProject.Entities/1.0.0": {
       "type": "project",
-      "path": "../Entities/MyProject.Entities.csproj",
-      "msbuildProject": "../Entities/MyProject.Entities.csproj"
+      "path": "../MyProject.Entities/MyProject.Entities.csproj",
+      "msbuildProject": "../MyProject.Entities/MyProject.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1357,11 +1357,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\GitHub\\MyProject\\MyProject.Business\\MyProject.Business.csproj",
+      "projectUniqueName": "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\MyProject.Business\\MyProject.Business.csproj",
       "projectName": "MyProject.Business",
-      "projectPath": "D:\\Documents\\GitHub\\MyProject\\MyProject.Business\\MyProject.Business.csproj",
+      "projectPath": "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\MyProject.Business\\MyProject.Business.csproj",
       "packagesPath": "C:\\Users\\caglar.durmus\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\GitHub\\MyProject\\MyProject.Business\\obj\\",
+      "outputPath": "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\MyProject.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1380,11 +1380,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\Documents\\GitHub\\MyProject\\Entities\\MyProject.Entities.csproj": {
-              "projectPath": "D:\\Documents\\GitHub\\MyProject\\Entities\\MyProject.Entities.csproj"
+            "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj": {
+              "projectPath": "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj"
             },
-            "D:\\Documents\\GitHub\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj": {
-              "projectPath": "D:\\Documents\\GitHub\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj"
+            "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\MyProject.Entities\\MyProject.Entities.csproj": {
+              "projectPath": "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\MyProject.Entities\\MyProject.Entities.csproj"
             }
           }
         }

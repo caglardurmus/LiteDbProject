@@ -1319,11 +1319,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\GitHub\\MyProject\\Entities\\MyProject.Entities.csproj",
+      "projectUniqueName": "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\Entities\\MyProject.Entities.csproj",
       "projectName": "MyProject.Entities",
-      "projectPath": "D:\\Documents\\GitHub\\MyProject\\Entities\\MyProject.Entities.csproj",
+      "projectPath": "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\Entities\\MyProject.Entities.csproj",
       "packagesPath": "C:\\Users\\caglar.durmus\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\GitHub\\MyProject\\Entities\\obj\\",
+      "outputPath": "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1342,8 +1342,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\Documents\\GitHub\\MyProject\\Core\\Core.csproj": {
-              "projectPath": "D:\\Documents\\GitHub\\MyProject\\Core\\Core.csproj"
+            "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\Core\\Core.csproj": {
+              "projectPath": "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\Core\\Core.csproj"
             }
           }
         }

@@ -1301,11 +1301,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\GitHub\\MyProject\\Core\\Core.csproj",
+      "projectUniqueName": "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "D:\\Documents\\GitHub\\MyProject\\Core\\Core.csproj",
+      "projectPath": "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\caglar.durmus\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\GitHub\\MyProject\\Core\\obj\\",
+      "outputPath": "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

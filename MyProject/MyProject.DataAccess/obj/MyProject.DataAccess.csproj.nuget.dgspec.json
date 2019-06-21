@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\GitHub\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj": {}
+    "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\GitHub\\MyProject\\Core\\Core.csproj": {
+    "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\GitHub\\MyProject\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\Documents\\GitHub\\MyProject\\Core\\Core.csproj",
+        "projectPath": "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\caglar.durmus\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\GitHub\\MyProject\\Core\\obj\\",
+        "outputPath": "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -60,14 +60,14 @@
         }
       }
     },
-    "D:\\Documents\\GitHub\\MyProject\\Entities\\MyProject.Entities.csproj": {
+    "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\GitHub\\MyProject\\Entities\\MyProject.Entities.csproj",
-        "projectName": "MyProject.Entities",
-        "projectPath": "D:\\Documents\\GitHub\\MyProject\\Entities\\MyProject.Entities.csproj",
+        "projectUniqueName": "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj",
+        "projectName": "MyProject.DataAccess",
+        "projectPath": "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj",
         "packagesPath": "C:\\Users\\caglar.durmus\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\GitHub\\MyProject\\Entities\\obj\\",
+        "outputPath": "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\MyProject.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -86,8 +86,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\Documents\\GitHub\\MyProject\\Core\\Core.csproj": {
-                "projectPath": "D:\\Documents\\GitHub\\MyProject\\Core\\Core.csproj"
+              "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\Core\\Core.csproj": {
+                "projectPath": "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\Core\\Core.csproj"
+              },
+              "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\MyProject.Entities\\MyProject.Entities.csproj": {
+                "projectPath": "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\MyProject.Entities\\MyProject.Entities.csproj"
               }
             }
           }
@@ -116,14 +119,14 @@
         }
       }
     },
-    "D:\\Documents\\GitHub\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj": {
+    "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\MyProject.Entities\\MyProject.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\GitHub\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj",
-        "projectName": "MyProject.DataAccess",
-        "projectPath": "D:\\Documents\\GitHub\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj",
+        "projectUniqueName": "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\MyProject.Entities\\MyProject.Entities.csproj",
+        "projectName": "MyProject.Entities",
+        "projectPath": "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\MyProject.Entities\\MyProject.Entities.csproj",
         "packagesPath": "C:\\Users\\caglar.durmus\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\GitHub\\MyProject\\MyProject.DataAccess\\obj\\",
+        "outputPath": "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\MyProject.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -142,11 +145,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\Documents\\GitHub\\MyProject\\Core\\Core.csproj": {
-                "projectPath": "D:\\Documents\\GitHub\\MyProject\\Core\\Core.csproj"
-              },
-              "D:\\Documents\\GitHub\\MyProject\\Entities\\MyProject.Entities.csproj": {
-                "projectPath": "D:\\Documents\\GitHub\\MyProject\\Entities\\MyProject.Entities.csproj"
+              "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\Core\\Core.csproj": {
+                "projectPath": "D:\\Documents\\GitHub\\LiteDbProject\\MyProject\\Core\\Core.csproj"
               }
             }
           }
